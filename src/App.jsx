@@ -30,13 +30,13 @@ function App() {
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <Link className="nav-link active" aria-current="page" to="/reactportfolio">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          <Link className="nav-link" to="/reactportfolio/courses">Courses</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <Link className="nav-link" to="/reactportfolio/projects">Projects</Link>
         </li>
         <li className="nav-item dropdown">
           <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
