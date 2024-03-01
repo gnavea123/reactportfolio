@@ -6,7 +6,7 @@ import './App.css'
 import React from "react";
 import {Link} from "react-router-dom";
 import {Route, Routes} from "react-router-dom"
-import {Home} from "/reactportfolio/src/Pages/Home";
+import {Home} from "./Pages/Home";
 import {Courses} from "/reactportfolio/src/Pages/Courses";
 import {Projects} from "/reactportfolio/src/Pages/Projects";
 import {Contact} from "/reactportfolio/src/Pages/Contact";
