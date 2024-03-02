@@ -10,6 +10,7 @@ import {Home} from "./Pages/Home";
 import {CV} from "./Pages/CV";
 import {Projects} from "./Pages/Projects";
 import {Contact} from "./Pages/Contact";
+import {MyProfile} from "./Pages/MyProfile";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
 import PdfViewer from "./components/PdfViewer";
@@ -49,7 +50,7 @@ function App() {
           <Link className="nav-link" to="/reactportfolio/projects">Projects</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/reactportfolio/projects">Projects</Link>
+          <Link className="nav-link" to="/reactportfolio/myprofile">MyProfile</Link>
         </li>
    
       </ul>
@@ -57,6 +58,9 @@ function App() {
   </div>
   
 </nav>
+
+<div className="github-card" data-github="gnavea123" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
        
 
 
@@ -66,6 +70,7 @@ function App() {
         <Route path="/reactportfolio/courses" element={<CV />} />
         <Route path="/reactportfolio/projects" element={<Projects />} />
         <Route path="/reactportfolio/contact" element={<Contact />} />
+        <Route path="/reactportfolio/myprofile" element={<MyProfile />} />
         
 </Routes>
 </>
