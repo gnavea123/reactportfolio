@@ -1,7 +1,13 @@
 //import React from 'react'
 import React,{useEffect} from "react";
+import { UserCard } from 'react-ui-cards';
+// import headerImage from "../assets/images/githubprofile_header.jpeg";
+// import avatarImage from "../assets/images/githubprofile_avatar.jpeg"
+
+//console.log(avatarImage);
 
 export function Home() {
+
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -15,6 +21,16 @@ export function Home() {
       document.body.removeChild(script);
     };
   }, []);
+
+//   const Example = () => <UserCard
+//   float
+//   href='https://github.com/nukeop'
+//   header={headerImage}
+//   avatar={avatarImage}
+//   name='Gaston Navea'
+//   positionName='Data/Infrastructure Manager'
+// />
+
 
 
   return (
