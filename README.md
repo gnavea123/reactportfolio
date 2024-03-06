@@ -19,8 +19,8 @@ This Application was created using Vite React with Javascript options. In order 
 
 - node
 - [React-pdf](https://www.npmjs.com/package/jest)    (This is used to embed the CV.pdf file within the App)
-- [Recat Github UI Cards](https://www.npmjs.com/package/react-ui-cards)    (This is just a github badge to link to my github page profile)
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom)     (This package provides the ncessary navigation links within the React App)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)     (This package provides the necessary navigation links within the React App)
+- [axios](https://www.npmjs.com/package/react-router-dom)     (This package is used to provide the necessary connection links to Github)
 
 The corresponding packge.json file will indicate the versions required to run the application
 
