@@ -40,3 +40,61 @@
 .read-the-docs {
   color: #888;
 }
+.cardGithub {
+max-width: 1600px;
+background-color: rgb(245, 245, 234);
+border-radius: 30px;
+display:flex;
+padding: 3rem;
+margin: 0 1.5rem;
+}
+.avatarGithub {
+  border-radius: 50%;
+  border: 5px solid rgb(117, 102, 206);
+  height:150px;
+  width: 150px:
+}
+.user-infoGithub ul {
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+.containerProjects {
+  display:flex;
+  width: 90vw;
+}
+.panelProjects {
+ background-size: auto 100%; 
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 80vh;
+ border-radius: 50px;
+ color: white;
+ cursor: pointer;
+ flex: 0.5;
+ position: relative;
+ transition: flex 0.7s ease-in;
+}
+.panelProjects h3{
+  font-size:  24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.panelProjects.active {
+  flex: 5;
+}
+.panelProjects.active h3{
+  opacity:1
+}
+@media (max-width:480px) {
+
+  .containerProjects { width: 100vw}
+  .panelProjects:nth-of-type(5),
+  .panelProjects:nth-of-type(6),
+  .panelProjects:nth-of-type(7) {
+    display:none;
+  }
+}

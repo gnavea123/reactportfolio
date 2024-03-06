@@ -13,8 +13,8 @@ import {Contact} from "./Pages/Contact";
 import {MyProfile} from "./Pages/MyProfile";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import * as bootstrap from 'bootstrap';
-import PdfViewer from "./components/PdfViewer";
-import samplePDF from "./assets/documents/gastonnaveacv.pdf";
+// import PdfViewer from "./components/PdfViewer";
+// import samplePDF from "./assets/documents/gastonnaveacv.pdf";
 import 'react-pdf/dist/Page/TextLayer.css';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 
@@ -50,7 +50,10 @@ function App() {
           <Link className="nav-link" to="/reactportfolio/projects">Projects</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/reactportfolio/myprofile">MyProfile</Link>
+          <Link className="nav-link" to="/reactportfolio/myprofile">Github Profile</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/reactportfolio/contact">Contact</Link>
         </li>
    
       </ul>
@@ -71,6 +74,7 @@ function App() {
         <Route path="/reactportfolio/projects" element={<Projects />} />
         <Route path="/reactportfolio/contact" element={<Contact />} />
         <Route path="/reactportfolio/myprofile" element={<MyProfile />} />
+        <Route path="/reactportfolio/contact" element={<Contact />} />
         
 </Routes>
 </>
