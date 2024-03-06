@@ -42,7 +42,26 @@ node run dev
 
 ## Screen captures of live application
 
-![alt text](LiveAppScreenCapture.png)
+Home Page:
+![alt text](reactportfolio01.png)
+-------------------------------------------
+CV Page:
+![alt text](reactportfolio02.png)
+-------------------------------------------
+Projects:
+![alt text](reactportfolio03.png)
+-------------------------------------------
+GitHub Summary:
+![alt text](reactportfolio04.png)
+-------------------------------------------
+Contact:
+![alt text](reactportfolio05.png)
+------------------------------------------
+
+
+
+
+
 
 ## License
 
