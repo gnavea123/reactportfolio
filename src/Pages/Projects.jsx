@@ -9,6 +9,24 @@ import codeQuiz from '../assets/images/reactPortfolio_ImagesProjects/codequizapp
 import projectDateNight from '../assets/images/reactPortfolio_ImagesProjects/projectdatenight.png'
 export function Projects() {
 
+
+  const panels = document.querySelectorAll('.panelProjects')
+
+  panels.forEach((panel) => {
+    panel.addEventListener ('click', () => {
+      removeActiveClasses()
+      panel.classList.add('active')
+    })
+  })
+
+
+  function removeActiveClasses() {
+    panels.forEach((panel) => {
+      panel.classList.remove('active')
+    })
+  }
+
+
   return (
     <div>
       <h1>Projects</h1>
