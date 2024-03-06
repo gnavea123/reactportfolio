@@ -1,6 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 
 import './App.css';
 import React from "react";
@@ -71,7 +68,7 @@ function App() {
 <Routes>
         <Route path="/reactportfolio" element={<Home />} />
         <Route path="/reactportfolio/courses" element={<CV />} />
-        <Route path="/reactportfolio/projects" element={<Projects />} />
+        <Route path="/reactportfolio/projects/*" element={<Projects />} />
         <Route path="/reactportfolio/contact" element={<Contact />} />
         <Route path="/reactportfolio/myprofile" element={<MyProfile />} />
         <Route path="/reactportfolio/contact" element={<Contact />} />

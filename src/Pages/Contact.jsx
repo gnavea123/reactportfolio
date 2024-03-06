@@ -35,7 +35,7 @@ export function Contact() {
               ></textarea>
             </div>
             <div>
-              <lable></lable>
+              <label></label>
               <button    type="submit">Submit</button>
 
             </div>
